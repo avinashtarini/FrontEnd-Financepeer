@@ -1,0 +1,21 @@
+nav {
+  height: 10vh;
+  background-color: #ffffff;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading {
+  font-size: 24px;
+  color: #000000;
+  font-style: italic;
+}
+.logout-btn {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 18px;
+  padding: 8px;
+}

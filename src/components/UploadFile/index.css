@@ -1,0 +1,22 @@
+.upload-background {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.files-dropzone {
+  font-size: 28px;
+}
+.button {
+  color: #ffffff;
+  background-color: #afef2e;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-size: 20px;
+  margin-top: 15px;
+}
