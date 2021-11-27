@@ -8,19 +8,17 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import "./App.css";
 
 const App = () => (
-  <>
+  <BrowserRouter>
     <Header />
     <div className="background-container">
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/signup" component={Signup} />
-          <ProtectedRoute exact path="/" component={UploadFile} />
-          <ProtectedRoute exact path="/display" component={DisplayFile} />
-        </Switch>
-      </BrowserRouter>
+      <Switch>
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/signup" component={Signup} />
+        <ProtectedRoute exact path="/" component={UploadFile} />
+        <Route exact path="/display" component={DisplayFile} />
+      </Switch>
     </div>
-  </>
+  </BrowserRouter>
 );
 
 export default App;

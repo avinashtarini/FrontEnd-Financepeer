@@ -8,3 +8,17 @@
   display: flex;
   align-items: center;
 }
+.buttons-container {
+  margin: 15px;
+}
+.button-signup {
+  font-family: Roboto;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  color: #ffffff;
+  background-color: #2e5fef;
+  margin-right: 20px;
+  cursor: pointer;
+}
