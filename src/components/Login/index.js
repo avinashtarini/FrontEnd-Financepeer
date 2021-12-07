@@ -4,15 +4,11 @@ import "./index.css";
 
 class Login extends Component {
   state = { username: "", password: "" };
+
   formSubmit = (event) => {
     event.preventDefault();
     const { history } = this.props;
-    history.replace("/upload-file");
-  };
-
-  changeToSignUp = () => {
-    const { history } = this.props;
-    history.push("/signup/");
+    history.replace("/");
   };
 
   loginProcess = async () => {

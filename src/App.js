@@ -15,7 +15,7 @@ const App = () => (
         <Route exact path="/login" component={Login} />
         <Route exact path="/signup" component={Signup} />
         <ProtectedRoute exact path="/" component={UploadFile} />
-        <Route exact path="/display" component={DisplayFile} />
+        <ProtectedRoute exact path="/display" component={DisplayFile} />
       </Switch>
     </div>
   </BrowserRouter>
